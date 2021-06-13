@@ -1,1 +1,1 @@
-document.getElementById('food-<%= @food.id %>').innerHTML = '<%= j render("foods/dislike", post: @food) %>'
+document.getElementById('food-<%= @food.id %>').innerHTML = '<%= j render("foods/dislike", food: @food) %>'
